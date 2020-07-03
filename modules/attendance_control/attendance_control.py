@@ -144,8 +144,8 @@ class AttendanceControl(ACInterface):
             if i == (int((number_of_intervals - 2) / 2)):
                 current_interval += 300.0
             interval_buffer = 300.0 - random_number
-            #intervals_list.append(float(current_interval))
-            intervals_list.append(float(2))
+            intervals_list.append(float(current_interval))
+            #intervals_list.append(float(2))
         return intervals_list
 
     # Контроль посещаемости одного занятия
